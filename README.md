@@ -4,7 +4,7 @@
 
 - Look for **NaN (not a number)** values with **.findna()** and consider using **.dropna()** to clean up your DataFrame.
 
-- You can access entire columns of a DataFrame using the square bracket notation:** df['column name'] **or **df[['column name 1', 'column name 2', 'column name 3']]**
+- You can access entire columns of a DataFrame using the square bracket notation: **df['column name']**or **df[['column name 1', 'column name 2', 'column name 3']]**
 
 - You can access individual cells in a DataFrame by chaining square brackets **df['column name'][index]** or using **df['column name'].loc[index]**
 
